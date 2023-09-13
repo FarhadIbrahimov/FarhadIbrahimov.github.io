@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Farhad's Page</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+    <script src="assets/js/content.js"></script>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+      <!-- Intro -->
+      <div id="intro">
+        <h1>
+          Farhad<br />
+          Ibrahimov
+        </h1>
+		<p><h2>Software Engineer</h2></p>
+        <p>
+          Passionate about coding and creating user-friendly applications. I
+          love turning ideas into reality through clean, efficient code
+        </p>
+        <ul class="actions">
+          <li>
+            <a
+              href="#header"
+              class="button icon solid solo fa-arrow-down scrolly"
+              >Continue</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!-- Header -->
+      <header id="header">
+        <a href="index.html" class="logo">About Me</a>
+      </header>
+
+      <!-- Nav -->
+      <nav id="nav">
+        <ul class="links">
+          <li class="active"><a href="index.html">Main Page</a></li>
+          <li><a href="projects.html">My Projects</a></li>
+          <!-- <li><a href="elements.html">Elements Reference</a></li> -->
+        </ul>
+		<ul class="icons ">
+		 
+			<li>
+			  <a href="https://www.linkedin.com/in/farhadibrahimov/" class="icon brands alt fa-linkedin" target="_blank"
+				><span class="label">Linkedin</span></a
+			  >
+			</li>
+		   
+			<li>
+			  <a href="https://github.com/FarhadIbrahimov" class="icon brands alt fa-github"
+			  target="_blank"><span class="label">GitHub</span></a
+			  >
+			</li>
+		  </ul>
+      </nav>
+
+      <!-- Main -->
+      <div id="main">
+        <!-- Featured Post -->
+        <article class="post featured">
+          <header class="major">
+            <p id="about-me-content"></p>
+          </header>
+        </article>
+
+        <!-- Posts -->
+        <section id="about-project">
+          <article>
+            <header>
+              <h2>About my current project I am working on</h2>
+			  <span class="date"></span>
+            </header>
+			
+            <div class="project-content">
+              <p>${aboutProject1}</p>
+			  
+            </div>
+			
+
+            <div class="project-links">
+              <a
+                href="https://github.com/FarhadIbrahimov/myChatProject"
+                class="image fit"
+                target="_blank"
+                ><img src="images/chat.jpg" alt="GitHub"
+              /></a>
+              <a
+                href="https://github.com/FarhadIbrahimov?tab=repositories"
+                class="button"
+                target="_blank"
+                >Visit my GitHub Page</a
+              >
+            </div>
+          </article>
+        </section>
+      </div>
+
+      <!-- Footer -->
+    <!-- Footer -->
+<footer id="footer">
+	<section class="split contact">
+	  <section class="alt">
+		<h3>Address</h3>
+		<p id="addressContent"></p>
+	  </section>
+	  <section>
+		<h3>Phone</h3>
+		<p id="phoneContent"></p>
+	  </section>
+	  <section>
+		<h3>Email</h3>
+		<p id="emailContent"></p>
+	  </section>
+	  <section>
+		<h3>Social</h3>
+		<ul class="icons alt">
+		 
+		  <li>
+			<a href="https://www.linkedin.com/in/farhadibrahimov/" class="icon brands alt fa-linkedin" target="_blank"
+			  ><span class="label">Linkedin</span></a
+			>
+		  </li>
+		 
+		  <li>
+			<a href="https://github.com/FarhadIbrahimov" class="icon brands alt fa-github"
+			target="_blank"><span class="label">GitHub</span></a
+			>
+		  </li>
+		</ul>
+	  </section>
+	</section>
+  </footer>
+  
+	 
+      
+
+    <!-- Scripts -->
+
+    <script>
+      document.getElementById("about-me-content").textContent = aboutMeContent;
+
+      document.querySelector(".project-content p").innerHTML = aboutProject1;
+      document.getElementById("addressContent").textContent = addressContent;
+      document.getElementById("phoneContent").textContent = phoneContent;
+      document.getElementById("emailContent").textContent = emailContent;
+    </script>
+
+    <script src="assets/js/currentDate.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
